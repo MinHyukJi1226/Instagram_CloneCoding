@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1075772383438",
+    "firebase_url": "https://instagramclonecoding-ba0ea.firebaseio.com",
+    "project_id": "instagramclonecoding-ba0ea",
+    "storage_bucket": "instagramclonecoding-ba0ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075772383438:android:0e227d16b87a41f426709f",
+        "android_client_info": {
+          "package_name": "org.techtown.instagram_clonecoding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075772383438-an80b368447rl2tc52igbvftpkmmq0lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz4emZE5lNAWUtC4JS_5v0gIa2TTzOYHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075772383438-an80b368447rl2tc52igbvftpkmmq0lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
