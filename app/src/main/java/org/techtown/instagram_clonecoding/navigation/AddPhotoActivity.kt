@@ -66,7 +66,7 @@ class AddPhotoActivity : AppCompatActivity() {
 
         var storageRef = storage?.reference?.child("images")?.child(imageFilename)
 
-        //Promise method
+        //Promise method (use)
         storageRef?.putFile(photoUri!!)?.continueWithTask { task: Task<UploadTask.TaskSnapshot> ->
             return@continueWithTask storageRef.downloadUrl
         }?.addOnSuccessListener { uri ->
