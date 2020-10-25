@@ -25,7 +25,10 @@ class LoginActivity : AppCompatActivity() {
             signinAndSignup()
         }
     }
-
+    override fun onStart() {
+        super.onStart()
+        moveMainpage(auth?.currentUser)
+    }// 자동 로그인
     fun signinAndSignup() {
         auth?.createUserWithEmailAndPassword(email_edittext.text.toString(),password_edittext.text.toString())
             ?.addOnCompleteListener {
